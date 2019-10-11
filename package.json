@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/yas-okadatech/textlint-rule-brand-name/issues"
   },
-  "homepage": "https://github.com/yas-okadatech/textlint-rule-brand-name#readme"
+  "homepage": "https://github.com/yas-okadatech/textlint-rule-brand-name#readme",
+  "dependencies": {
+    "textlint-rule-prh": "^5.2.1"
+  }
 }
