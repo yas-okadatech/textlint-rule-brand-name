@@ -6,4 +6,4 @@ rules:
   - expected: Elixir
   - expected: GitHub
   - expected: GitHub Actions
-    pattern: /GitHub Action/
+    pattern: /GitHub Action(?!s)/
