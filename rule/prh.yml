@@ -2,5 +2,8 @@
 version: 1
 rules:
 
-  - expected: GitHub
   - expected: CircleCI
+  - expected: Elixir
+  - expected: GitHub
+  - expected: GitHub Actions
+    pattern: GitHub Action
