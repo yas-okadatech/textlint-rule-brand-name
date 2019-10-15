@@ -1,21 +1,38 @@
 {
   "name": "textlint-rule-brand-name",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "textlint: textlint rule that checks brand names",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "textlint-scripts build",
+    "test": "textlint-scripts test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yas-okadatech/textlint-rule-brand-name.git"
   },
-  "author": "yas-okadatech",
+  "keywords": [
+    "textlint"
+  ],
+  "author": "Yas Okada",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yas-okadatech/textlint-rule-brand-name/issues"
   },
   "homepage": "https://github.com/yas-okadatech/textlint-rule-brand-name#readme",
   "dependencies": {
+    "textlint-rule-helper": "^2.1.1",
     "textlint-rule-prh": "^5.2.1"
-  }
+  },
+  "devDependencies": {
+    "textlint-scripts": "^2.1.0"
+  },
+  "peerDependencies": {
+    "textlint": ">= 5.6.0"
+  },
+  "files": [
+    "lib",
+    "src",
+    "rule"
+  ]
 }
