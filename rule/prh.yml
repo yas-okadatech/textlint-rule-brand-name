@@ -4,8 +4,9 @@ rules:
 
   - expected: CircleCI
   - expected: Elixir
+    pattern: /(?!.*\/)[EeＥｅ][LlＬｌ][IiＩｉ][XxＸｘ][IiＩｉ][RrＲｒ]/
   - expected: GitHub
+    pattern: /[GgＧｇ][IiＩｉ][TtＴｔ][HhＨｈ][UuＵｕ][BbＢｂ](?!\.com)/
   - expected: GitHub Actions
   - expected: GitHub Actions
-    pattern:
-      - /GitHub [Aa]ction(?!s)/
+    pattern: /GitHub [Aa]ction(?!s)/

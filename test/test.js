@@ -9,8 +9,18 @@ tester.run("brand names", rule, {
         'Elixir',
         'GitHub',
         'GitHub Actions',
+        '//github.com/elixir/',
+        '//hexdocs.pm/elixir/Application.html'
     ],
     invalid: [
+        {
+            text: "elixir",
+            errors: [
+                {
+                    message: "elixir => Elixir"
+                }
+            ]
+        },
         {
             text: "github",
             errors: [
